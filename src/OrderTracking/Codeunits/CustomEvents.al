@@ -4,7 +4,7 @@ codeunit 50700 "Custom Events"
     begin
     end;
 
-    local procedure T21()
+    local procedure T21_CustLedgerEvents()
     begin
     end;
 
@@ -15,7 +15,7 @@ codeunit 50700 "Custom Events"
         CustLedgerEntry."Priority Level" := GenJournalLine."Priority Level";
     end;
 
-    local procedure T36()
+    local procedure T36_SalesHeaderEvents()
     begin
     end;
 
@@ -26,7 +26,7 @@ codeunit 50700 "Custom Events"
         SalesHeader."Priority Level" := SellToCustomer."Priority Level";
     end;
 
-    local procedure T81()
+    local procedure T81_GenJournalEvents()
     begin
     end;
 
@@ -36,6 +36,4 @@ codeunit 50700 "Custom Events"
         GenJournalLine."Tracking Code" := SalesHeader."Tracking Code";
         GenJournalLine."Priority Level" := SalesHeader."Priority Level";
     end;
-
-
 }
