@@ -1,0 +1,33 @@
+{
+  "id": "712d6b65-2f60-4b87-b622-50e50f4daede",
+  "name": "BC Samples Codes GitHub",
+  "publisher": "KenM Consulting LLC",
+  "version": "1.0.0.0",
+  "brief": "Sample Codes by KenM Consulting LLC for GitHub Repo",
+  "description": "Sample Codes by KenM Consulting LLC for GitHub Repo",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50700,
+      "to": 50900
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ],
+  "target": "Cloud"
+}
